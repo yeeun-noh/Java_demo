@@ -1,8 +1,8 @@
-package ex01;
+package ex02;
 
 import java.util.Scanner;
 
-	public class Exam07 {
+	public class Exam01 {
 
 		public static void main(String[] args) {
 		//(Test)
