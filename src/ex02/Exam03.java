@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Exam03 {
 
 	public static void main(String[] args) {
+		//(Test)
 		// 성적 입력 받아서 70이상 합격했습니다..메시지 출력..
 		
 		Scanner sc = new Scanner(System.in);
