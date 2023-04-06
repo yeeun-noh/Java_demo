@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Exam04 {
 
 	public static void main(String[] args) {
+		//(Test)		
 		// 면접점수 70이상, 실기점수 70이상 합격 아니면 불합격
 		
 		Scanner sc = new Scanner(System.in);
