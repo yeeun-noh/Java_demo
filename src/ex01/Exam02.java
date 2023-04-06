@@ -12,7 +12,7 @@ public class Exam02 {
 		int score = 10;
 		
 		d = score;
-	//  d = (double)score; => 10에서 10.0으로 변환
+	    //  d = (double)score; => 10에서 10.0으로 변환
 		System.out.println(d);
 		
 		d = 85.4;
@@ -23,8 +23,13 @@ public class Exam02 {
 		long longsum = 3000000000L; 
 	
 		longsum = sum;
-	//  longsum = (long)sum;
+	    //  longsum = (long)sum;
 		System.out.println(longsum);
+		
+		short sh = 32767;
+		int num = 50000;
+		sh = (short)num;
+		System.out.println(sh);
 		
 		System.out.println(5/2); // 정수 + 정수 이기 때문에 2.5에서 2만 출력
 		System.out.println(5/2.0); // 정수 + 실수 이기 때문에 2.5 출력
