@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Exam05 {
 
 	public static void main(String[] args) {
+		//(Test)
 		// 성별, 나이 => 성별:남자, 나이: 20이상이면 군대간다..아니면 면제
 		
 		Scanner sc = new Scanner(System.in);
