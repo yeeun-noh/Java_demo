@@ -3,7 +3,11 @@ package ex01;
 public class Exam02 {
 
 	public static void main(String[] args) {
-
+	// bytes > short > int > long    > float > double  
+	// ==> 자동형변환
+	// - 연산이나 대입할 때 타입이 일치하지 않으면 실행이 안됨
+	// - 따라서 먼저 타입을 일치 시키기 (타입을 일치시킬때 형변환이 됨)
+	
 		double d = 85.4;
 		int score = 10;
 		
