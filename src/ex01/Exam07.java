@@ -2,7 +2,7 @@ package ex01;
 
 import java.util.Scanner;
 
-	public class Exam11 {
+	public class Exam07 {
 
 		public static void main(String[] args) {
 		//(Test)
@@ -26,7 +26,8 @@ import java.util.Scanner;
 			average = total / 3.0;
 			
 			System.out.println("총점: " + total);
-			System.out.println("평균: " + average);			
+		//	System.out.println("평균: " + average);			
+			System.out.printf("평균: %.2f%n", average);			
 	}
 
 }
