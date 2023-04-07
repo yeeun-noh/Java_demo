@@ -13,16 +13,18 @@ public class Exam01 {
 		System.out.println("성적 입력>>");
 		int number = sc.nextInt();
 		
-		if(number >= 90)
+		if(number >= 90 && number <= 100)
 			System.out.println("A학점");
-		else if (number >= 80)
+		else if (number >= 80 && number < 90)
 			System.out.println("B학점");
-		else if (number >= 70)
+		else if (number >= 70 && number < 80)
 			System.out.println("C학점");
-		else if (number >= 60)
+		else if (number >= 60 && number < 70)
 			System.out.println("D학점");
-		else
+		else if (number < 60)
 			System.out.println("F학점");
+		else
+			System.out.println("다시 공부...");
 
 		System.out.println("프로그램 종료");
 	}
