@@ -17,6 +17,12 @@ public class Exam03 {
 		else
 			System.out.println("홀수");
 
+		// 다른 방법 :
+		if(number %2 != 0)
+			System.out.println("홀수");
+		else
+			System.out.println("짝수");
+		
 		System.out.println("프로그램 종료");
 	}
 
