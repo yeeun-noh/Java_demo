@@ -11,7 +11,7 @@ public class Exam10 {
 		System.out.println("문제1. 정수입력>>");
 		int num = sc.nextInt();
 		
-		if (num>50)
+		if (num > 50)
 			System.out.println("50 이상");
 		else
 			System.out.println("50 이하");
