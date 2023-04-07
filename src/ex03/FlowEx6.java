@@ -23,7 +23,7 @@ public class FlowEx6 {
 			case 9: case 10: case 11:
 				System.out.println("현재의 계절: 가을");
 				break;
-//		default :
+//			default :
 			case 12: case 1: case 2:
 				System.out.println("현재의 계절: 겨울");
 				break;
