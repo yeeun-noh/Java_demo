@@ -14,7 +14,7 @@ public class Exam02 {
 		System.out.println("당신의 나이는? >>");
 		int age = sc.nextInt();
 		
-		sc.nextLine(); //입력버퍼 남아있는 엔터를 제거해야함!
+		sc.nextLine(); // 입력버퍼 남아있는 엔터를 제거해야함!
 		// 이유는 엔터를 제거하지 않으면,
 		// String name = sn.nextLine(); 이 문장에서 엔터를 문장으로 인식해서 버퍼 남은 엔터를 name변수에 넣음
 		
