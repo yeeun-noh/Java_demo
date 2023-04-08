@@ -6,7 +6,7 @@ public class Exam09 {
 
 	public static void main(String[] args) {
 		//(Test)
-		// 학점 구하기는 switch문으로 변경 (Exam01.java 확인)
+		// 학점 구하기는 switch문으로 변경(Exam01.java 확인)
 		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("성적 입력>>");
