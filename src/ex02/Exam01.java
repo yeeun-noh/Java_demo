@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 		public static void main(String[] args) {
 		//(Test)
-		//키보드로 국어,영어,수학 점수를 입력 받아서 총점/평균을 출력하는 프로그램 작성:
+		//키보드로 국어,영어,수학 점수를 입력 받아서 총점/평균을 출력하는 프로그램 작성 :
 			
 			Scanner sc = new Scanner(System.in);
 
@@ -27,7 +27,7 @@ import java.util.Scanner;
 			
 			System.out.println("총점: " + total);
 		//	System.out.println("평균: " + average);			
-			System.out.printf("평균: %.2f%n", average);			
+			System.out.printf("평균: %.2f%n", average); // 소숫점 둘째자리까지 출력			
 	}
 
 }
