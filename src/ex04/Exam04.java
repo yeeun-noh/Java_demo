@@ -26,6 +26,15 @@ public class Exam04 {
 			System.out.println(sum2);
 		}
 		System.out.println("j의 값: " + j);
+		
+		System.out.println("---------------------------------------");
+		
+		int num3 = 0;
+		
+		for(int i=200; i<=100; i++) { // for문의 조건식이 거짓이면, 블럭 내의 문장들이 실행되지않고 for문을 벗어남
+			num3 +=i;
+		}
+		System.out.println(num3); // num3 = 0
 	}
 	
 }
