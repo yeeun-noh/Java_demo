@@ -2,7 +2,7 @@ package ex04;
 
 import java.util.Scanner;
 
-public class Exam03 {
+public class Exam04 {
 
 	public static void main(String[] args) {
 		//(Test)
@@ -15,10 +15,17 @@ public class Exam03 {
 		int end = sc.nextInt();
 		int sum = 0;
 		
-		for(int i=start; i<=end; i++) {
+		for(i=start; i<=end; i++) {
 			sum += i;
 		}
 		System.out.println(sum);
+		
+		int j; // Stack 메모리 공간에 남겨주기 위해, j를 for문 전에 선언
+		for(j=start; j<=end; j++) {
+			sum += j;
+		}
+		System.out.println(sum);
+		System.out.println(j); // j 출력 가능
 	}
 	
 }
