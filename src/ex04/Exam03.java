@@ -15,11 +15,12 @@ public class Exam04 {
 		int end = sc.nextInt();
 		int sum = 0;
 		
-		for(i=start; i<=end; i++) {
+		for(int i=start; i<=end; i++) {
 			sum += i;
 		}
 		System.out.println(sum);
 		
+		sum =0;
 		int j; // Stack 메모리 공간에 남겨주기 위해, j를 for문 전에 선언
 		for(j=start; j<=end; j++) {
 			sum += j;
