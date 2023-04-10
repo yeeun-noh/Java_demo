@@ -2,7 +2,7 @@ package ex04;
 
 import java.util.Scanner;
 
-public class Exam04 {
+public class Exam03 {
 
 	public static void main(String[] args) {
 		//(Test)
