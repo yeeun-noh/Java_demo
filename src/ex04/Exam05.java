@@ -31,7 +31,7 @@ public class Exam05 {
 		int sum = 0;
 		int i;
 
-		for(i=0; ;i++) {
+		for(i=0; true; i++) { 	// true 생략 가능
 			if(i % 2 == 1)		// 홀수
 				sum +=i;		// 1 + 3 + 5 + ...
 			else				// 짝수
@@ -40,6 +40,19 @@ public class Exam05 {
 			if(sum >= 100) break;
 		}
 		System.out.println("i: " + i + ", 총합: " + sum);
+		
+		// 또 다른 방법 :
+		int sum_ = 0;
+		int sign = 1;
+		int tmp = 0;
+		
+		for(int x=1; true; x++,sign=-sign) { // (sign=-sign)는 2=>-2 로 만들어줌
+			tmp = sign * x;
+			
+			sum_ += tmp;
+			if(sum_ >= 100) break;
+		}
+		System.out.println("i: " + tmp + ", 총합: " + sum_);
 	}
 
 }
