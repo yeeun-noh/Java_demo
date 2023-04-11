@@ -8,12 +8,11 @@ public class Exam10 {
 		// 랜덤함수 1~100사이 숫자를 가지고 있다
 		// 유저가 컴퓨처 랜덤 숫자를 맞추는 게임...
 		
+		Scanner sc = new Scanner(System.in);
 		int com = (int)(Math.random()*100)+1; // 1~100
 		int user = 0;	
 		int count = 0;
-
-		Scanner sc = new Scanner(System.in);
-
+		
 		while(true){
 			System.out.print("정수 입력> ");
 			user = sc.nextInt();
