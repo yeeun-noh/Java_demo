@@ -1,6 +1,6 @@
 package ex05;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
 public class Exam07 {
 
@@ -13,6 +13,13 @@ public class Exam07 {
 		int num = 12345;
 		int sum = 0;
 
+//		이렇게 해도됨 (사용자에게 숫자를입력시키기) :
+//		int num = 0;
+//		int sum = 0;
+//		System.out.println("숫자 입력>"); // 12345
+//		Scanner sc = new Scanner(System.in);
+//		num = sc.nextInt();
+		 
 		while(num>0) {
 			sum += num%10;	//5 (1234.5의 소수점자리출력)
 			num /= 10;		//1234 (1234.5의 정수자리출력)
