@@ -48,8 +48,8 @@ public class Exam06 {
 				System.out.println();
 				break;
 			case 2:
-				System.out.print("출금액>"); 	// 출금액 차감(-=)
-				balance -= sc.nextInt();
+				System.out.print("출금액>");
+				balance -= sc.nextInt(); 	// 출금액 차감(-=)
 				System.out.println();
 				break;
 			case 3:
