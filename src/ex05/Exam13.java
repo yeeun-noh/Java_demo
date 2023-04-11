@@ -18,22 +18,26 @@ public class Exam13 {
 		
 		Scanner sc = new Scanner(System.in);
 		int count = 0;
-		int i;
 		int sum = 0;
 		
 		System.out.println("몇회 입력>> ");
-		count = sc.nextInt();
-		
-		for(i=0; i<count+1; i++) {
-			System.out.print("숫자를 입력하세요: ");
-			i = sc.nextInt();
-		
-		
-			if (i%2 == 0) {
-				sum += i;
-			}
+		int number = sc.nextInt();
+	     
+		while (count < number) {
+	          System.out.print("숫자를 입력하세요: ");
+	          if (sc.hasNextInt()) { //int타입일떄 true
+	          // sc.hasNextInt() : sc객체에 입력값이 int값일 때만 true를 반환함, 나머지는 false
+	             int num = sc.nextInt();
+	             if (num % 2 == 0) {
+	                sum += num;
+	             }
+	             count++;
+	          } else {
+	             sc.next(); 
+	             System.out.println("정수가 아닙니다. 다시 입력해주세요.");
+	          }
 		}
-		System.out.println("짝수의 값의 합은 " + sum);
+		System.out.println("짝수의 합: " + sum);
 	}
 
 }
