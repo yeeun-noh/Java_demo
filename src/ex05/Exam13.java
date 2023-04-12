@@ -33,7 +33,8 @@ public class Exam13 {
 	             }
 	             count++;
 	          } else {
-	             sc.next(); 
+	             sc.next();  //버퍼없애줌
+	       // or sc.nextLine();
 	             System.out.println("정수가 아닙니다. 다시 입력해주세요.");
 	          }
 		}
