@@ -24,19 +24,22 @@ public class Exam13 {
 		int number = sc.nextInt();
 	     
 		while (count < number) {
-	          System.out.print("숫자를 입력하세요: ");
-	          if (sc.hasNextInt()) { //int타입일떄 true
-	          // sc.hasNextInt() : sc객체에 입력값이 int값일 때만 true를 반환함, 나머지는 false
-	             int num = sc.nextInt();
-	             if (num % 2 == 0) {
-	                sum += num;
-	             }
-	             count++;
-	          } else {
-	             sc.next();  //버퍼없애줌
-	       // or sc.nextLine();
-	             System.out.println("정수가 아닙니다. 다시 입력해주세요.");
-	          }
+			System.out.print("숫자를 입력하세요: ");
+	        if (sc.hasNextInt()) { //int타입일떄 true
+	        // sc.hasNextInt() : sc객체에 입력값이 int값일 때만 true를 반환함, 나머지는 false
+	        	int num = sc.nextInt();
+	        	if (num % 2 == 0) {
+	        		sum += num;
+	        	}
+	        	count++;
+	        } else if (sc.hasNextDouble()) { //double타입일때 true
+	        	sc.next();
+	          	System.out.println("실수는 입력 불가 입니다. 다시 입력해주세요.");
+	        } else {
+	          	sc.next();  //버퍼없애줌
+	      	  // or sc.nextLine();
+	          	System.out.println("정수가 아닙니다. 다시 입력해주세요.");
+	        }
 		}
 		System.out.println("짝수의 합: " + sum);
 	}
