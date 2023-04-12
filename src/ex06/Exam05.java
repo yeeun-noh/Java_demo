@@ -18,7 +18,7 @@ public class Exam05 {
 		
 		for(int i=0; i<arr.length; i++) {
 			for(int j=i+1; j<arr.length; j++) {
-//			for(int j=0; j<arr.length; j++) {	//교환이 많이 일어남
+//			for(int j=0; j<arr.length; j++) {  // 0부터 시작하게 되면 교환이 많이 일어나기 때문에 코드가복잡+더러워짐
 				if(arr[i] > arr[j]) {
 					int tmp = arr[i];
 					arr[i] = arr[j];
