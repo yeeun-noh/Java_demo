@@ -28,23 +28,27 @@ public class Exam03 {
 		// 5. char[] toCharArray() : 문자열을 문자배열(char[])로 변환해서 반환
 		
 		String msg = "korea";
-		
-		char ch = msg.charAt(0); // 1. charAt()
+
+		// 1. charAt()	:	
+		char ch = msg.charAt(0);
 		System.out.println(ch); // k
-		
-		int a = msg.length(); // 2. length()
+
+		// 2. length() :	
+		int a = msg.length();
 		System.out.println(a); // 5
 
-		String msg2 = msg.substring(0,3); // 3. substring(from, to) ==> 인덱스 0이상 3미만(==0~2) 사이의 값출력 ==> 1~3번째 값 출력
+		// 3. substring(from, to) :
+		String msg2 = msg.substring(0,3); // 인덱스 0이상 3미만(==인덱스0~2) 사이의 값출력 ==> 1~3번째 값 출력
 		System.out.println(msg2); // kor
 
 		// int a, int b 비교 =>  기본자료형비교는 a==b
 		// String a, String b 비교 => 기본형의 참조형비교는 a.equals(b)
-		boolean check = msg.equals(msg2); // 4. equals()
-		System.out.println(check);
+		// 4. equals() :
+		boolean check = msg.equals(msg2); //'korea'와 'kor'비교
+		System.out.println(check); // false
 		
-		char[] ch2 = msg.toCharArray(); // 5. toCharArray()
+		// 5. toCharArray() :
+		char[] ch2 = msg.toCharArray();
 		System.out.println(ch2); // korea
-		System.out.println(Arrays.toString(ch2)); // [k, o, r, e, a]
 	}
 }
