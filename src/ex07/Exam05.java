@@ -1,7 +1,5 @@
 package ex07;
 
-import java.util.Arrays;
-
 public class Exam05 {
 	
 	public static void main(String[] args) {
