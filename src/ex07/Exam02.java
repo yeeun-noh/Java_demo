@@ -21,14 +21,14 @@ public class Exam02 {
 		System.out.println("----------------------------------------------------------------");
 		
 		// 배열의 복사는 아님(주소값을 이용해 같은 배열을 가르키게 되는것!)
-		int[] tmp = new int[10];
-		tmp = arrNum; // arrNum의 주소값을 tmp에게 복사 (한번에 arrNum의 값들이 저장됨) => 따라서 arrNum와 tmp는 같은 배열공간을 창조(같은 배열을 가리키게 됨)
-		System.out.println(Arrays.toString(tmp)); // [10, 20, 30, 40, 50]
+		int[] arrNum3 = new int[10];
+		arrNum3 = arrNum; // arrNum의 주소값을 arrNum3에게 복사 (한번에 arrNum의 값들이 저장됨) => 따라서 arrNum와 arrNum3는 같은 배열공간을 창조(같은 배열을 가리키게 됨)
+		System.out.println(Arrays.toString(arrNum3)); // [10, 20, 30, 40, 50]
 		
 		// 위의 문장들이 맞게 나왔는지 확인해보기(랜덤값을 지정해서 출력해보기): 
 		arrNum[3] = 100;
 		System.out.println(Arrays.toString(arrNum));
-		System.out.println(Arrays.toString(tmp));
+		System.out.println(Arrays.toString(arrNum3));
 		
 		System.out.println("----------------------------------------------------------------");
 
