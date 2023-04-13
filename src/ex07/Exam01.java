@@ -1,5 +1,7 @@
 package ex07;
 
+import java.util.Arrays;
+
 public class Exam01 {
 	
 	public static void main(String[] args) {
@@ -48,8 +50,9 @@ public class Exam01 {
 					arr[j] = tmp;
 				}
 			} 
-			System.out.print(arr[i] + ", ");
+//			System.out.print(arr[i] + ", "); //line55줄처럼 사용가능!
 		}
+		System.out.println(Arrays.toString(arr));
 	}
 }
 
