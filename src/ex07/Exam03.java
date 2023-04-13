@@ -20,7 +20,7 @@ public class Exam03 {
 		System.out.println(Arrays.toString(str3)); // [kor, eng, math]
 		
 		
-		// String의 주요 메서드
+		// String클래스의 주요 메서드:
 		// 1. char charAt(int index) : 문자열에서 해당위치(index)에 있는 문자를 반환
 		// 2. int length() : 문자열의 길이를 반환
 		// 3. String substring(int from, int to) : 문자열에서 해당 범위(from~to)에 있는 문자열을 반환 (to는 범위에 포함하지 않음)
