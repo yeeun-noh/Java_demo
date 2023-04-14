@@ -16,7 +16,7 @@ package ex08;
 
 
 // 1. 더하기 : 반환타입O, 매개변수O
-// 2. 실수값을 전달하면, 실수값을 정수로 변환해서 돌려주느 시스템
+// 2. 실수값을 전달하면, 실수값을 정수로 변환해서 돌려주는 시스템
 public class FunctionExam01 {
 
 	public static void main(String[] args) {
@@ -40,7 +40,7 @@ public class FunctionExam01 {
 		return result;
 	}
 	
-	//2. 실수값을 전달하면, 실수값을 정수로 변환해서 돌려주느 시스템
+	//2. 실수값을 전달하면, 실수값을 정수로 변환해서 돌려주는 시스템
 	static int convertInt(double d) {
 		int result = (int)d;
 		return result;
