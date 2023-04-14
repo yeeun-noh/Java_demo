@@ -22,11 +22,12 @@ public class Exam06 {
 			int sum = 0;
 			float avg = 0.0f;
 			
+			// 총점 구하기:
 			korTotal  += score[i][0];
 			engTotal  += score[i][1];
 			mathTotal += score[i][2];
 			
-			// 번호구하기:
+			// 번호 구하기:
 			System.out.printf("%2d", i+1);
 			
 			// 각점수 구하기:
