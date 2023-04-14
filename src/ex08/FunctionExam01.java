@@ -8,7 +8,7 @@ package ex08;
  * 
  * ex) String main(int num) {  => main이라는 함수안에 int 매개변수 하나를 입력받아 string을 출력(반환)
  * 			return "문자열";
- * 	   }
+ *     }
  * 
  * void:변환타입,  main:함수명,  ():매개변수 타입
  * {}:함수가 수행문장
