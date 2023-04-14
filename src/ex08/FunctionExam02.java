@@ -14,7 +14,7 @@ public class FunctionExam02 {
 		System.out.println("프로그램 끝!");
 	}
 	
-	// 1. 더하기 : 반환타입O, 매개변수O (2개)
+	//1. 더하기 : 반환타입O, 매개변수O (2개)
 	static void add(int num1, int num2) { //void => return값 가지지 않음
 		System.out.println("더하기: " + (num1+num2));
 	}
