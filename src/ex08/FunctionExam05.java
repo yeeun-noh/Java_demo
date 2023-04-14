@@ -7,7 +7,12 @@ public class FunctionExam05 {
 		System.out.println("프로그램 시작");
 
 		int total = sumFunction(100);
-		System.out.println("Total: " + total);
+
+		System.out.print("Total= " + total + " 은 ");
+		if(total%2 ==0) System.out.println("짝수!");
+		else System.out.println("홀수!");
+		
+		
 		
 		System.out.println("프로그램 끝!");
 	}
@@ -15,8 +20,11 @@ public class FunctionExam05 {
 	
 	static int sumFunction(int num) {
 		int result = 0;
-		for(int i=1; i<=num; i++)
+		
+		for(int i=1; i<=num; i++) {
 			result += i;
+		}
+		
 		return result;
 	}
 	
@@ -27,7 +35,7 @@ public class FunctionExam05 {
 /* (실행결과:)
 
 프로그램 시작
-Total: 5050
+Total= 5050 은 짝수!
 프로그램 끝!
 
  */
