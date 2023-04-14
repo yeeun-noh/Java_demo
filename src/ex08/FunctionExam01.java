@@ -8,7 +8,7 @@ package ex08;
  * 
  * ex) String main(int num) {  => main이라는 함수안에 int 매개변수 하나를 입력받아 string을 출력(반환)
  * 			return "문자열";
- *     }
+ * 	   }
  * 
  * void:변환타입,  main:함수명,  ():매개변수 타입
  * {}:함수가 수행문장
@@ -26,7 +26,9 @@ public class FunctionExam01 {
 		
 		int num2 = convertInt(10.2);
 		
-		System.out.println(num + " , " + num2);
+		System.out.println("더하기: " + num);
+		System.out.println("정수로 변환: " + num2);
+		
 		System.out.println("프로그램 끝!");
 	}
 	
@@ -52,7 +54,9 @@ public class FunctionExam01 {
 
 프로그램 시작
 add함수 시작...
-30 , 10
+더하기: 30
+정수로 변환: 10
 프로그램 끝!
+
 
  */
