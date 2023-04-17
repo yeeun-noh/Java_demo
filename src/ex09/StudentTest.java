@@ -24,7 +24,7 @@ class Student{
 	}
 }
 
-//	한 파일안에 public클래스 하나만 존재해야함(public클래스안에 main메서드 존재해야함) + 파일명과 public클래스명이 같아야함
+// 한 파일안에 public클래스 하나만 존재해야함(public클래스안에 main메서드 존재해야함) + 파일명과 public클래스명이 같아야함
 public class StudentTest {
 	
 	public static void main(String[] args) {
