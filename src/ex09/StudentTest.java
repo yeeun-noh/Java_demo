@@ -3,7 +3,7 @@ package ex09;
 class Student{
 	String name;
 	String address;
-	int age;              	//인스턴스변수(멤버변수)
+	int age;              	//인스턴스변수(==멤버변수)
 	static int count;	//클래스변수(==정적변수, 공유변수)
 	
 	void displayInfo() {	//인스턴스메서드
