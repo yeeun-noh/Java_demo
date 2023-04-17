@@ -1,16 +1,22 @@
 package ex09;
 
 class Member {
+	static int count; //클래스변수
 	String name;
 	String id; //인스턴스변수 id
 	String password;
 	int age;
 
+	//클래스메서드
+	static void checkOut() {}
+	
+	//인스턴스매서드
 	boolean login(String id, String password) { //지역변수(매개변수) id
 		if(id.equals("hong") && password.equals("12345") ) return true;
 		else return false;
 	};
 	
+	//인스턴스매서드
 	void logout(String id){
 		System.out.println(id + " 님이 로그아웃 되었습니다");
 	};
