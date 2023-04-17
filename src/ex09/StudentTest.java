@@ -3,18 +3,18 @@ package ex09;
 class Student{
 	String name;
 	String address;
-	int age;              //인스턴스변수
-	static int count;		  //클래스변수(==공유변수)
+	int age;              	//인스턴스변수
+	static int count;	//클래스변수(==정적변수, 공유변수)
 	
 	void displayInfo() {	//인스턴스메서드
-		count++;            //인스턴스변수 사용가능
+		count++;        //인스턴스변수 사용가능
 		System.out.println(name + ", " + age + ", " + address + ", 현재학생수: "+ count);
 	}
 	
 	static void Info() {	//클래스메서드
-		count++;            //클래스변수 사용가능
-//		age++;            //인스턴스변수 사용 불가능!
-//		displayInfo();    //인스턴스메서드 사용 불가능!
+		count++;        //클래스변수 사용가능
+//		age++;          //인스턴스변수 사용 불가능!
+//		displayInfo();  //인스턴스메서드 사용 불가능!
 		
 //		클래스변수, 클래스메서드는  객체가 생성되기 전 제일처음으로 메서드영역(methodarea)에 저장되어있음
 //		=> 클래스메서드는 클래스변수 사용가능!(인스턴스변수,인스턴스메서드는 사용불가능!)
