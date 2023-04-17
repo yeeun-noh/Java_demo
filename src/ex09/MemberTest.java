@@ -6,7 +6,7 @@ class Member {
 	String password;
 	int age;
 
-	boolean login(String id, String password) { //매개변수(지역변수) id
+	boolean login(String id, String password) { //지역변수(매개변수) id
 		if(id.equals("hong") && password.equals("12345") ) return true;
 		else return false;
 	};
