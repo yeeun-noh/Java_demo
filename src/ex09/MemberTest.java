@@ -1,17 +1,17 @@
 package ex09;
 
 class Member {
-	static int count; //클래스변수
+	static int count; 	//클래스변수
 	String name;
-	String id; //인스턴스변수 id
+	String id; 		//인스턴스변수 id
 	String password;
 	int age;
-
+	
 	//클래스메서드
 	static void checkOut() {}
 	
 	//인스턴스매서드
-	boolean login(String id, String password) { //지역변수(매개변수) id
+	boolean login(String id, String password) {  //지역변수(매개변수) id
 		if(id.equals("hong") && password.equals("12345") ) return true;
 		else return false;
 	};
@@ -23,8 +23,10 @@ class Member {
 }
 
 public class MemberTest {
+	static int test = 10; 		//메서드영역(method area)에 저장
 	
 	public static void main(String[] args) {
+		int test2 = 10; 	//호출스택(call stack)에 저장
 		Member m = new Member();
 		
 		boolean b = m.login("ho", "123");
