@@ -11,7 +11,7 @@ class Membersss {
 	// 생성자 ==> 반환타입x, 클래스이름과 같음, 오버로딩가능, 초기화기능 가지고 있음
 	//
 	// this ==>(1)지역변수와 멤버변수가 충돌날때, this를 붙이면 멤버변수 의미
-	//		==>(2)생성자를 찾을때 사용됨
+	//	==>(2)생성자를 찾을때 사용됨
 	public Membersss(String name, int age) { //name, age : 지역변수/매개변수 
 		this.name = name; //(1)지역변수와 접근제어자(멤버변수)의 이름이 같을 때: "this.name"은 "private String name"을 의미 (인스턴스 자기 자신을 가리킴)
 		this.age = age;
