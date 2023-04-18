@@ -24,6 +24,7 @@ class Childd extends Parents {
 	}
 	
 	public Childd(String name) {
+		//super(); 잠재되있음(상속받기 때문에)
 		this.name = name;
 		System.out.println("Childd(String name) Call");
 	}
