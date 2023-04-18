@@ -28,7 +28,7 @@ class Membersss {
 	Membersss(String name) {
 //		this.name = name;
 //		this.age = 1;
-		this(name, 1); //(2)생성자를 찾아내서 사용
+		this(name, 1); //(2)생성자를 찾아내서 사용 (this는 참조변수, this()는 생성자)
 	}
 	
 	void display() {
