@@ -10,6 +10,7 @@ class A extends Object {	//상위클래스는 Object클래스를 자동으로 �
 		this.a = a;
 		this.c = c;
 	}
+	
 	void func() {
 		System.out.println("func()");
 	}
@@ -21,7 +22,7 @@ class B extends A {
 	
 	B() {
 		super(); 	//super()은 상위클래스(기본생성자)를 찾아감, super()과 기본생성자는 잠재되있음!
-					    //=> 할일을 다하면 다시 이자리로 와서 코드룰 순서대로 계속 실행
+				//=> 할일을 다하면 다시 이자리로 와서 코드룰 순서대로 계속 실행
 	}
 	
 	B(int a, int b) {
