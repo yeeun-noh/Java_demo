@@ -1,6 +1,6 @@
 package ex11;
 
-class A extends Object { //상위클래스는 Object클래스를 자동으로 상속받고 있음
+class A extends Object {	//상위클래스는 Object클래스를 자동으로 상속받고 있음
 	int a;
 	int c =100;
 	
@@ -33,14 +33,14 @@ class B extends A {
 	}
 }
 
-class C extends A {	//C클래스는 B클래스와 아무런 관계도 성립되지 않음(형제관계없음!)
+class C extends A {		//C클래스는 B클래스와 아무런 관계도 성립되지 않음(형제관계없음!)
 	int k;
 	void func3() {
 		System.out.println("func3()");
 	}
 }
 
-class D extends C {	//D클래스는 C클래스와 A클래스에 접근가능 (단, 생성자들 제외)
+class D extends C {		//D클래스는 C클래스와 A클래스에 접근가능 (단, 생성자들 제외)
 	int d;
 	void func4() {
 		System.out.println("func4()");
