@@ -5,7 +5,7 @@ package ex11;
 
 class Bag {
 	int capacity;
-	SunCream sun;					//포함관계
+	SunCream sun;				//포함관계
 	SunCream sun2 = new SunCream(); 	//포함관계
 	
 	public Bag() {
