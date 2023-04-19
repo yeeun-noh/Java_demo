@@ -22,7 +22,7 @@ class Student11 extends Studentss{
 	double weight;
 	
 	public Student11(String name, int age, double weight) {
-		super(name, age); 		//조상클래스를 호출! (조상클래스의 매개변수와 자손클래스의인자가 일치해야함)
+		super(name, age); 	//조상클래스를 호출! (조상클래스의 매개변수와 자손클래스의인자가 일치해야함)
 		this.weight = weight;	//자신과 같은 클래스의 다른 생성자를 호출!
 	}
 	
