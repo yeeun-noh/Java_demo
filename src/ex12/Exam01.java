@@ -8,8 +8,8 @@ class Object {
 		System.out.println("Object클래스의 tostring()");
 	}
 	
-	void equals() {
-		System.out.println("Object클래스의 equals()");
+	void onlyObject() {
+		System.out.println("Object클래스의 onlyObject()");
 	}
 }
 
@@ -22,6 +22,10 @@ class A extends Object{
 	
 	void tostring() {	//오버라이딩
 		System.out.println("A클래스의 tostring()");
+	}
+	
+	void onlyA() {
+		System.out.println("A클래스의 onlyA()");
 	}
 }
 
@@ -47,8 +51,11 @@ public class Exam01 {
 		A a = new A();
 		B b = new B();
 		//상위클래스는 하위클래스 참조가능 (하위클래스는 상위클래스 참조불가능):
-		A aa = new B();
-		Object ob = new B();
+		A aa = new B();			//aa는 A클래스와 Object클래스 접근/사용가능
+		Object ob = new B(); 	//ob는 Object클래스만 접근/사용가능
+//		B bb = new A(); 		//불가능 (하위클래스는 상위클래스 참조불가능)
+		
+		
 		
 		//오버라이딩을 통해, 하위클래스의 함수 접근/사용가능:
 		a.tostring();	//A클래스의 tostring()
