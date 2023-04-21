@@ -13,6 +13,14 @@ public class Exam03 {
 		b.buy(new Computer());
 		
 		b.summary();
+		
+//		Product[] cart = {new Tv(), new Computer(), new Audio() };
+//		cart[0] = new Tv();
+//		cart[1] = new Computer();
+//		cart[2] = new Audio();
+//		System.out.println(cart[0]);
+//		System.out.println(cart[1].toString()); //'toString() 생략가능'
+//		System.out.println(cart[2]);
 	}
 
 }
@@ -20,7 +28,7 @@ public class Exam03 {
 class Buyer {
 	int money = 1000;
 	Product[] cart = new Product[3];
-	int  i = 0;
+	int i = 0;
 	
 	void buy(Product p) {
 		if(p.price > money) {
@@ -40,7 +48,7 @@ class Buyer {
 			for(int j =0; j<cart.length; j++) {
 				newCart[j] = cart[j];
 			}
-					cart = newCart;
+			cart = newCart;
 		}
 		cart[i] = p;
 		i++;
