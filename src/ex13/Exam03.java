@@ -52,6 +52,7 @@ class Buyer {
 		}
 		cart[i] = p;
 		i++;
+		//한줄로 가능: cart[i++] = p;
 		
 	}
 	
@@ -78,7 +79,7 @@ class Tv extends Product {
 		super(100);
 	}
 
-	public String toString( ) {
+	public String toString( ) { //Object클래스의 toString()메서드 오버라이딩해서용사용
 		return "Tv";
 	}
 }
