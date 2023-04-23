@@ -1,7 +1,7 @@
 package ex13;
-//리뷰 (ex12/Exam03.java)
+//리뷰 (ex12/Exam03.java) instanceof연산자사용
 
-class Robot {}
+class Robot {} //상스클래스
 
 class DanceRobot extends Robot {
 	void dance() {
@@ -30,7 +30,7 @@ public class Exam02 {
 			action(arr[i]);
 		
 		System.out.println("---------------------------");
-		// 또다른방법:
+		// 또다른방법:(for문 사용하지 않고 하나씩 호출하는법)
 		action(new DanceRobot());
 		action(new SingRobot());
 		action(new DrawRobot());
