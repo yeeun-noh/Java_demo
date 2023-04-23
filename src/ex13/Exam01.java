@@ -44,6 +44,7 @@ public class Exam01 {
 			E ee = (E)b;
 			ee.f4();
 		}else if(b instanceof B) { //이문장은 첫번쨰로 오면 안됨
+		//b가 B객체를 참조하거나(or) B를 상속하고 있는 객체이면 true
 			b.f1();
 		}	
 	}
