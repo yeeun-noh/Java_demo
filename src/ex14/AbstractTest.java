@@ -1,7 +1,7 @@
 package ex14;
 // 추상클래스, 추상메서드
 
-abstract class Animal {		//abstract class (추상클래스) : 상속을 통해서만 구현해주어야함(객체생성 허용안함)
+abstract class Animal {			//abstract class (추상클래스) : 상속을 통해서만 구현해주어야함(객체생성 허용안함)
 	abstract void makeSound() ;	//abstract method (추상메서드) : 상속받은 클래스들은 무조건 추상메서드를 오버라이딩으로 구현해야함!
 	//- 추상메서드는 {}구현부없음
 	//- 안정성 높임
