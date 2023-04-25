@@ -48,8 +48,17 @@ public class InterfaceTest {
 		
 		an = new Dogs(); //최상위클래스만 참조함
 		an.eat();
-		an.sleep();
-		
+		an.sleep();		
 	}
 
 }
+
+/* (실행결과:)
+
+고양이는 먹는다
+고양이는 잔다
+야옹
+강아지는 먹는다
+강아지는 잔다
+
+*/
