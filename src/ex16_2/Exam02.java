@@ -7,7 +7,7 @@ public class Exam02 {
 	public static void main(String[] args) {
 
 		try {
-			Class.forName("java.lang.String"); //Class.forName() : 클래스의 이름 찾음
+			Class.forName("java.lang.String"); //Class.forName() : 클래스의 이름 찾음 (자바가 예외처리를 필수로 필요로함)
 			System.out.println("java.lang.String 클래스가 존재함");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
