@@ -16,7 +16,7 @@ public class RegularExpressionTest {
 	
 		System.out.println("-----------------------------");
 	
-		String str2 = "A12345";
+		String str2 = "A1234a";
 		Pattern p2 = Pattern.compile("^[0-9A-Z]{6}$"); //(숫자+영어대문자 6개만 입력가능)
 		Matcher m2 = p2.matcher(str2);
 		System.out.println(m2.find());//(false)
@@ -34,9 +34,6 @@ public class RegularExpressionTest {
 		Pattern p4 = Pattern.compile("[b|c].{2}"); //string에 아무열이나 세글자중 첫번째 숫자만 b 또는 c이어야함! 
 		Matcher m4 = p4.matcher(str4);
 		System.out.println(m4.find());//(true)
-		
-		
-
 	}
 
 }
