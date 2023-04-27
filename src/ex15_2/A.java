@@ -13,17 +13,11 @@ public class A {
 //		static int field3 = 1;	//정적변수, 정적클래스변수
 //		static void test2() {}	//정적메서드
 		
-		
-		
-		B() {
-			System.out.println("B객체 생성");
-		}
+		B() { System.out.println("B객체 생성"); }
 	}
 	
 	class C {
-		C() {
-			System.out.println("C객체 생성");
-		}
+		C() { System.out.println("C객체 생성"); }
 	}
 	
 	B field = new B();
