@@ -1,6 +1,6 @@
 package ex18_5;
 //지네릭스 - 와일드 카드
-//하한 제한
+//하한 제한 - super사용 (getter과 비슷!)
 
 class A {}
 class B extends A {}
