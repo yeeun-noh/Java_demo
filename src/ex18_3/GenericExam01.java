@@ -14,8 +14,8 @@ class Box<T> {
 }
 
 class Unboxer {
-//	public static void peekBox(Box<? extends Number> box) { //상한 제한
-	public static void peekBox(Box<? super Integer> box) { //하한 제한
+	public static void peekBox(Box<? extends Number> box) { //상한 제한
+//	public static void peekBox(Box<? super Integer> box) { //하한 제한
 		System.out.println(box.getOb());
 	}
 }
