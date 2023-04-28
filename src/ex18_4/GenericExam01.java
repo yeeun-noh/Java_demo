@@ -1,6 +1,6 @@
 package ex18_4;
 //지네릭스 - 와일드 카드
-//상한 제한
+//상한 제한 - extends사용 (setter과 비슷!)
 
 class A {}
 class B extends A {}
