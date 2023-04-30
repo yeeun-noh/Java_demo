@@ -19,8 +19,8 @@ public class Exam01 {
 		} catch(NullPointerException e) {
 			System.out.println(e);
 			System.out.println(e.toString());	//.toString() : 화면에 예외메세지(이유)를 출력
-			System.out.println(e.getMessage()); //.getMessage() : 화면에 예외메세지(이유)를 출력
-			e.printStackTrace();				//.printStackTrace() : 위의 코드보다 더 디테일하게 출력
+			System.out.println(e.getMessage()); 	//.getMessage() : 화면에 예외메세지(이유)를 출력
+			e.printStackTrace();			//.printStackTrace() : 위의 코드보다 더 디테일하게 출력
 		}
 		
 		System.out.println("문자 수: " + result);
