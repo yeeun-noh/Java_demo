@@ -11,10 +11,10 @@ class Member {
 	
 	@Override //m1.equals(m2)
 	public boolean equals(Object obj) { //여기서 obj는 m2를 받아줌		
-		if(this.id == ((Member)obj).id) //여기서 this는 m1을 받아줌 (line38에서 m1이 equals를 호출했기때문)
+		if(this.id == ((Member)obj).id) //여기서 this는 m1을 받아줌 (line45에서 m1이 equals를 호출했기때문)
 			//설명:
 			//Object obj = new Object();	//Object클래스는 상위클래스이므로 id 접근/사용 못함
-			//Member m1 = (Member)obj;		//형변환
+			//Member m1 = (Member)obj;	//형변환
 			//m1.id;
 			//(m1 == (Member)obj)이므로 =>  m1.id; == ((Member)obj).id;
 			return true;
