@@ -15,8 +15,8 @@ public class Exam01 {
 //		Card card = new Card();
 //		card.info();
 		
-//		Class cObj = new Card().getClass(); //클래스의 경로 알수 있음
-//		Class cObj = Card.class;			//클래스의 경로 알수 있음
+//		Class cObj = new Card().getClass(); 	//클래스의 경로 알수 있음
+//		Class cObj = Card.class;		//클래스의 경로 알수 있음
 //		Class cObj = Class.forName("ex17_1.Card");
 //		Object obj = Class.forName("ex17_1.Card");
 		
