@@ -1,4 +1,4 @@
-package ex19_1;
+package ex19;
 // 컬렉션 프레임워크 - ArrayList와 LinkedListc 장단점 이해:
 
 import java.util.*;
