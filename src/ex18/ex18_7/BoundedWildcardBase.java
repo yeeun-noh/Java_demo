@@ -1,32 +1,60 @@
 package ex18_7;
 
-class Box<T> {
+class Box<T> { //T == Object == 최상위 클래스
 	private T ob;
 
-	public T getOb() {
+	public T getOb() {	  //getter: 꺼내는 기능 (extends 사용)
 		return ob;
 	}
 
-	public void setOb(T ob) {
+	public void setOb(T ob) { //setter: 넣는 기능 (super 사용)
 		this.ob = ob;
 	}
 }
 
-//개발자 실수가 있는 부분을 컴파일과정에서 발견될 수 있도록 매개변수를 수정하자
-public class BoundedWildcardBase {
-
-	public static void addBox(Box<? super Integer> b1, Box<? extends Integer> b2, Box<? extends Integer> b3) {
-		b1.setOb(b2.getOb() + b3.getOb()); //개발자 실수가 있는 부분
-	}
-	public static void main(String[] args) {
-
-		Box<Integer> box1 = new Box<>();
-		box1.setOb(24);
-		Box<Integer> box2 = new Box<>();
-		box2.setOb(37);
-		Box<Integer> result = new Box<>();
-		result.setOb(0);
-		addBox(result, box1, box2); //result에 24+37 결과 저장
-		System.out.println(result.getOb()); //61출력
+class Toy {
+	@Override
+	public String toString() {
+		return "I am a Toy()";
 	}
 }
+
+class BoxHandler {
+// getter기능(꺼내는 기능)만 가능하게하기 => extends 사용하기 :
+//	public static void outBox(Box<Toy> box) {
+	public static void outBox(Box<? extends Toy> box) {
+		Toy toy = box.getOb(); 
+//		box.setOb(new Toy()); //=>  <? extends Toy> 넣음으로써 set기능 못쓰게 됨
+//		(이유: T는 Object이므로, setOb(T ob)의 T(Object)에 Toy(extends)가 접근/사용 불가 하기 때문 )
+//		(결과적으로 extends를 사용하게 되면 getOb(getter)만 사용가능!)
+		System.out.println(toy);
+	}
+	
+	
+// setter기능(넣는 기능)만 가능하게하기 => super 사용하기 :
+//	public static void inBox(Box<Toy> box, Toy n) {
+	public static void inBox(Box<? super Toy> box, Toy n) {
+//		Toy toy = box.getOb(); //=>  <? super Toy> 넣음으로써 get기능 못쓰게 됨
+//		(이유: T는 Object이므로, setOb(T ob)의 T(Object)에 Toy(super)가 접근/사용 가능하기 때문 )
+//		(결과적으로 super를 사용하게 되면 setOb(setter)만 사용가능!)
+		box.setOb(n); 
+		System.out.println(n);
+	}
+}
+
+public class BoundedWildcardBase {
+
+	public static void main(String[] args) {
+
+		Box<Toy> box = new Box<Toy>();
+		BoxHandler.inBox(box, new Toy());
+		BoxHandler.outBox(box);
+	}
+}
+
+/* (실행결과:)
+
+I am a Toy()
+I am a Toy()
+  
+ */
