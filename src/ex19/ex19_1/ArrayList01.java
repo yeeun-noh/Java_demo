@@ -13,7 +13,7 @@ class Member {
 		this.age = age;
 	}
 }
-public class ArrayListE01 {
+public class ArrayList01 {
 
 	public static void main(String[] args) {
 
