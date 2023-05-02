@@ -1,4 +1,4 @@
-package ex19_1;
+package ex19;
 // 컬렉션 프레임워크 - Stack
 // Stack => 저장:push(), 추출:pop()
 
