@@ -1,4 +1,4 @@
-package ex19_1;
+package ex19;
 // 입력한 수식의 괄호가 올바른지를 체크:
 
 import java.util.*;
