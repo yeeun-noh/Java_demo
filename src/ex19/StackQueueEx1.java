@@ -10,7 +10,7 @@ public class StackQueueEx1 {
 	public static void main(String[] args) {
 
 		Stack st = new Stack();
-		Queue q = new LinkedList(); //Queue인터페이스의 구현제인 LinkedList를 사용
+		Queue q = new LinkedList(); //Queue인터페이스의 구현제인 LinkedList를 사용(Queue는 인터페이스이므로 객체 생성불가하기 때문에)
 		
 		st.push("0");
 		st.push("1");
