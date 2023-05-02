@@ -5,7 +5,7 @@ package ex19_1;
 
 import java.util.*;
 
-public class StackQueueEx {
+public class StackQueueEx1 {
 
 	public static void main(String[] args) {
 
