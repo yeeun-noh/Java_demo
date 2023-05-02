@@ -1,4 +1,4 @@
-package ex19_1;
+package ex19;
 // 컬렉션 프레임워크 - ArrayList
 
 import java.util.ArrayList;
