@@ -38,7 +38,7 @@ public class FruitAndBox3 {
 		aBox.setObj("Apple");
 		oBox.setObj("Orange");	
 		
-//		Apple3 ap = (Apple3)aBox.getObj();		//"Apple"은 String을 참조하고 있으므로 에러
+//		Apple3 ap = (Apple3)aBox.getObj();	//"Apple"은 String을 참조하고 있으므로 에러
 //		Orange3 or = (Orange3)oBox.getObj();	//"Orange"은 String을 참조하고 있으므로 에러
 //		System.out.println(ap);
 //		System.out.println(or);
