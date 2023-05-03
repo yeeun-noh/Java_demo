@@ -1,4 +1,4 @@
-package ex20;
+package ex20_1;
 //Arrays
 //배열을  List로 변환 - asList(Object... a)
 
