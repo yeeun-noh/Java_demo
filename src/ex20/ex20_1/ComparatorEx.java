@@ -1,4 +1,4 @@
-package ex20;
+package ex20_1;
 //Comparable(기본 정렬가준을 구현하는데 사용) - compareTo(Object o)
 //Comparator(기본 정렬가준 외에 다른 기준으로 정렬하고자할 때 사용) - compare(Object o1, Object o2)
 
