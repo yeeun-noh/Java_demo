@@ -1,4 +1,4 @@
-package ex20;
+package ex20_1;
 //Set - TreeSet
 //subSet()을 이용한 범위검색 (시작범위는 포함, 끝범위는 포함되지 않음!)
 
