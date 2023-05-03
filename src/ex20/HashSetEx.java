@@ -4,7 +4,7 @@ package ex20;
 import java.util.HashSet;
 import java.util.Set;
 
-public class HashSetCollection {
+public class HashSetEx {
 
 	public static void main(String[] args) {
 
