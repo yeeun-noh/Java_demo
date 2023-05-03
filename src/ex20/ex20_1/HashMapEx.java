@@ -1,4 +1,4 @@
-package ex20;
+package ex20_1;
 //Map - HashMap
 //- put(), get(), clear(), remove(), ketSet(),
 
