@@ -26,7 +26,7 @@ public class RamdaEx01 {
 				return a > b ? a: b;
 			}	
 		};
-		System.out.println("max: " + m.max(10, 20));
+		System.out.println("max: " + m2.max(10, 20));
 	}
 
 }
