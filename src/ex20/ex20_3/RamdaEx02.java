@@ -5,11 +5,11 @@ interface MyFunction2 {
 	int max(int a, int b); //추상메서드(abstract생략)
 }
 
-public class RamdaEx2 {
+public class RamdaEx02 {
 
 	public static void main(String[] args) {
 
-//		MyFuncton m2 = new MyFuncton() { //익명객체
+//		MyFuncton2 m2 = new MyFuncton2() { //익명객체
 //			@Override //어노테이션
 //			public int max(int a, int b) {
 //				return a > b ? a: b;
@@ -21,7 +21,6 @@ public class RamdaEx2 {
 
 		System.out.println("max: " + m2.max(10, 20));
 	}
-
 }
 
 /* (실행 결과:)
