@@ -9,6 +9,10 @@ interface Bbb {
 	void printVal(String name, int i);
 }
 
+interface Ccc {
+	void func();
+}
+
 public class RamdaEx03 {
 
 	public static void main(String[] args) {
@@ -18,6 +22,9 @@ public class RamdaEx03 {
 		
 		Bbb b = (name, i)-> System.out.println(name + "=" + i);
 		b.printVal("Kim", 20);
+		
+		Ccc c = ()-> System.out.println("------");
+		c.func();
 	}
 }
 
@@ -25,5 +32,6 @@ public class RamdaEx03 {
 
 100
 Kim=20
+------
 
 */
