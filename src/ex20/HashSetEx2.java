@@ -31,7 +31,7 @@ class Num {
 	}
 }
 
-public class HashSetCollection2 {
+public class HashSetEx2 {
 
 	public static void main(String[] args) {
 
