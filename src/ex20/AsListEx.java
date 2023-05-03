@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class AsListCollection {
+public class AsListEx {
 
 	public static void main(String[] args) {
 
