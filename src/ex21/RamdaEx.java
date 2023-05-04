@@ -1,4 +1,4 @@
-package ex21_1;
+package ex21;
 //람다식 - @FunctionalInterface : 추상메서드를 하나만 가능하다는것을 의미(람다사용가능)
 //java.util.function패키지 :
 // - BiFunction<T, U, R> -> apply() : 2개의 매개변수(T, U), 1개의 반환값(R)
