@@ -1,4 +1,4 @@
-package ex21_1;
+package ex21;
 //Optional<T>
 //Optional<T>객체를 생성할때는 of()나 ofNullable() 사용
 // - get() : Optional객체에 저장된 값을 가져옴
