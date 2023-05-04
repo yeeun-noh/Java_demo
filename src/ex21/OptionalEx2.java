@@ -1,4 +1,4 @@
-package ex21;
+package ex21_1;
 //Optional<T>
 //if else
 
@@ -42,7 +42,8 @@ public class OptionalEx2 {
 //		
 //		System.out.println(phone);
 //		System.out.println(address);
-			
+//		
+//		위의 코드(if else)대신 	Optional<T>의 orElse 사용:
 		Optional<ContactInfo> c1 = Optional.of(new ContactInfo("010", null));
 		String phone = c1.map(c-> c.getPhone()).orElse("No phone!");
 		String address = c1.map(c-> c.getAddree()).orElse("No address!");
