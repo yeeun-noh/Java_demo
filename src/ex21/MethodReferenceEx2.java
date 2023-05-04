@@ -1,4 +1,4 @@
-package ex21_1;
+package ex21;
 // 메서드 참조 (Method Reference) - 람다식을 간략히 가능!
 
 import java.util.ArrayList;
