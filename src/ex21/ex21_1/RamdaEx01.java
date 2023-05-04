@@ -3,7 +3,7 @@ package ex21_1;
 //java.util.function패키지 :
 // - BiFunction<T, U, R> -> apply() : 2개의 매개변수(T, U), 1개의 반환값(R)
 // - BiConsumer<T, U> -> accpet()   : 2개의 매개변수(T U), 반환값 없음
-// - Supplier<T> -> get()	        : 0개의 매개변수, 1개의 반환값(T)
+// - Supplier<T> -> get()	    : 0개의 매개변수, 1개의 반환값(T)
 // - Function<T, R> -> apply()      : 1개의 매개변수(T), 1개의 반환값(R)
 
 import java.util.*;
