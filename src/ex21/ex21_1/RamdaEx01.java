@@ -1,12 +1,12 @@
 package ex21_1;
 //람다식 - @FunctionalInterface : 추상메서드를 하나만 가능하다는것을 의미(람다사용가능)
-
-//<java.util.function패키지> :
+//java.util.function패키지 :
 // - BiFunction<T, U, R> -> apply() : 2개의 매개변수(T, U), 1개의 반환값(R)
 // - BiConsumer<T, U> -> accpet()   : 2개의 매개변수(T U), 반환값 없음
-// - Supplier<T> -> get()	    : 0개의 매개변수, 1개의 반환값(T)
+// - Supplier<T> -> get()	        : 0개의 매개변수, 1개의 반환값(T)
 // - Function<T, R> -> apply()      : 1개의 매개변수(T), 1개의 반환값(R)
 
+import java.util.*;
 import java.util.function.BiConsumer;
 import java.util.function.BiFunction;
 import java.util.function.Function;
@@ -104,6 +104,17 @@ public class RamdaEx01 {
 			return sum;
 		};
 		System.out.println(f2.apply(arr2));
+		
+		System.out.println("------------------------------------");
+//		다른예시:
+		List<Integer> nArr = new ArrayList<>();
+		nArr.add(10);
+		nArr.add(20);
+		nArr.add(30);
+		nArr.add(40);
+		nArr.add(50);
+		
+		nArr.forEach(t -> { System.out.println(t + 100); });
 	}
 
 }
@@ -130,5 +141,11 @@ Supplier<T> -> get() 사용 :
 15
 Function<T, R> -> apply() 사용 :
 15
+------------------------------------
+110
+120
+130
+140
+150
 
 */
