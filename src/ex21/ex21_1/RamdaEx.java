@@ -38,7 +38,7 @@ interface Eee {
 	int sumArr(int[] arr);
 }
 
-public class RamdaEx01 {
+public class RamdaEx {
 
 	public static void main(String[] args) {
 
