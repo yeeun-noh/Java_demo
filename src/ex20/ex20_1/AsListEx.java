@@ -43,14 +43,21 @@ public class AsListEx {
 }
 
 /* (실행 결과:)
+
 Toy
 Box
 Robot
 Box
 -------------------------
-Toy
-Box
-Robot
-Box
 Toy2
+Box2
+Robot2
+Box2
+-------------------------
+Toy2
+Box2
+Robot2
+Box2
+Toy3
+
 */
