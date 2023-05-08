@@ -24,6 +24,9 @@ public class StreamEx4 {
 		Stream<Student> stuStream = Stream.of(stuArr);
 		
 		stuStream.sorted(Comparator.comparing(Student::getBan).thenComparing(Comparator.naturalOrder())).forEach(System.out::println);
+		//Comparator.comparing(Student::getBan) : '반'별로 정렬
+		//.thenComparing(Comparator.naturalOrder()) : 기본 정렬
+		
 		System.out.println();
 		
 		stuStream = Stream.of(stuArr); //스트림을 다시 생성
@@ -73,13 +76,19 @@ class Student implements Comparable<Student> {
 
 /* (실행 결과:)
 
-평균: 79.91666666666667
-----------------------------
-10
-20
-30
-40
-50
-60
+[김자바, 1, 200]
+[소자바, 1, 200]
+[박자바, 2, 150]
+[인자바, 2, 100]
+[이자바, 3, 300]
+[나자바, 3, 290]
+[감자바, 3, 180]
+
+count= 7
+sum= 1420
+average= 202.86
+min= 100
+max= 300
 
 */
+
