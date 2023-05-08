@@ -1,5 +1,5 @@
 package ex22_2;
-// 스트림(Stream)
+// 스트림(Stream) ==> 람다식 & function패키지(함수형 인터페이스- Supplier<T>, Consumer<T>, Function<T, R>, Predicate<T>), et...) 알아야 수월함!
 // - distinct(), filter(), sum(), count(), forEach(), sorted(), map(), mapToInt()
 
 import java.util.Arrays;
