@@ -1,5 +1,6 @@
 package ex22_2;
 //스트림(Stream)
+// - mapToInt()
 
 import java.util.ArrayList;
 import java.util.List;
@@ -49,4 +50,3 @@ public class StreamEx2 {
 가격이 500이상 제품의 합: 1150
 
 */
-
