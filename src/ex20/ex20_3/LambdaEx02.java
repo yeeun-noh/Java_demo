@@ -1,11 +1,11 @@
 package ex20_3;
-//람다식 (Ramda expression)
+//람다식 (Lambda expression)
 
 interface MyFunction2 {
 	int max(int a, int b); //추상메서드(abstract생략)가 하나만 있을때만 람다식 사용가능
 }
 
-public class RamdaEx02 {
+public class LambdaEx02 {
 
 	public static void main(String[] args) {
 
