@@ -1,5 +1,5 @@
 package ex20_3;
-//람다식 (Ramda expression)
+//람다식 (Lambda expression)
 
 interface Aaa {
 	int square(int x);
@@ -13,7 +13,7 @@ interface Ccc {
 	void func();
 }
 
-public class RamdaEx03 {
+public class LambdaEx03 {
 
 	public static void main(String[] args) {
 
