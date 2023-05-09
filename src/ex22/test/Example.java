@@ -30,7 +30,7 @@ public class Example {
 		);
 		
 		List<Member> developers = list.stream().filter(d-> d.getJob().equals("개발자")).collect(Collectors.toList());
-        developers.stream().forEach(m -> System.out.println(m.getName()));  
+        	developers.stream().forEach(m -> System.out.println(m.getName()));  
 	}
 
 }
