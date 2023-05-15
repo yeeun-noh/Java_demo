@@ -1,12 +1,12 @@
 package ex09;
 
 class Member1{
-	int age;		//멤버변수, 인스턴스변수
+	int age;	//멤버변수, 인스턴스변수
 	static int num; //클래스변수, 동적변수, 공유변수	
 }
 
 class Member2 {
-	int age;		//멤버변수, 인스턴스변수
+	int age;	//멤버변수, 인스턴스변수
 	static int num; //클래스변수, 동적변수, 공유변수
 }
 
