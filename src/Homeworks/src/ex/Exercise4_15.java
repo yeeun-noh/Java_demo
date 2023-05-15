@@ -12,7 +12,8 @@ public class Exercise4_15 {
 		int result = 0; //변수 number를 거꾸로 변환해서 담을 변수
 		
 		while(tmp != 0) {
-//
+			result = result*10 + tmp%10;
+                	tmp /= 10;
 		}
 		
 		if(number == result)
