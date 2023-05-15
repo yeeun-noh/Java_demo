@@ -11,12 +11,10 @@ public class Exercise4_13 {
 		//반복문과 charAt(int i)를 이용해서 문자열의 문자를 하나씩 읽어서 검사:
 		for(int i=0; i<value.length(); i++) {
 			ch = value.charAt(i);
-			if(!('0' <= ch && ch >= '9'))
+			if(!('0' <= ch && ch >= '9')) {
 				isNumber = false;
-			
-//			이것도 사용가능:
-//			if(!Character.isDigit(value.charAt(i)))
-//				isNumber = false;
+				break;
+			}
 		}
 		
 		if(isNumber)
