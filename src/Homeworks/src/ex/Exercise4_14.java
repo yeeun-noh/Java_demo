@@ -19,7 +19,7 @@ public class Exercise4_14 {
 			input = s.nextInt(); //입력받은 값을 변수 input에 저장함
 			
 			if(input == answer) {
-				System.out.println("맞췄습니다");
+				System.out.println("맞췄습니다.");
 				flag = false;
 			} else if(input < answer) {
 				System.out.println("더 큰 수를 입력하세요.");
