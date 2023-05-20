@@ -1,4 +1,4 @@
-package ex;
+package Tests;
 //for문을  while문으로 변경하기:
 
 public class Exercise4_05 {
