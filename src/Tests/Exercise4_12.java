@@ -1,4 +1,4 @@
-package ex;
+package Tests;
 //구구단
 
 public class Exercise4_12 {
