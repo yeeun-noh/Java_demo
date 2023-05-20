@@ -1,4 +1,4 @@
-package ex;
+package Tests;
 //1 + (1+2) + (1+2+3) + (1+2+3+4) + ... + (1+2+3+...+10)의 결과 구하기:
 
 public class Exercise4_03 {
