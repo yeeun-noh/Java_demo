@@ -1,4 +1,4 @@
-package ex;
+package Tests;
 //문자열(value)이 숫자인지 판별하는 프로그램
 
 public class Exercise4_13 {
