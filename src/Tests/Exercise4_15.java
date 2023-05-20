@@ -1,4 +1,4 @@
-package ex;
+package Tests;
 //희문수(palindrome)를 구하는 프로그램
 //희문수(palindrome): 숫자를 거꾸로 읽어도 앞으로 읽는 것과 같은 수(ex. 12321, 13531, ...)
 
