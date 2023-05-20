@@ -1,4 +1,4 @@
-package ex;
+package Tests;
 //방정식 2x+4y=10의 모든 해 구하기:
 
 public class Exercise4_08 {
