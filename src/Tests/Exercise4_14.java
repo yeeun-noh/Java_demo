@@ -1,4 +1,4 @@
-package ex;
+package Tests;
 //숫자 맞추기 게임
 
 public class Exercise4_14 {
