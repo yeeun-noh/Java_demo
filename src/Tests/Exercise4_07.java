@@ -1,4 +1,4 @@
-package ex;
+package Tests;
 //Math.random()를 이용해 1~6 사이의 임의의 정수를 변수 value에 저장하는 코드:
 
 public class Exercise4_07 {
