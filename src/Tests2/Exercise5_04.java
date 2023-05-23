@@ -14,7 +14,7 @@ public class Exercise5_04 {
 	
 		int total = 0;
 		float average = 0;
-// 		int count = 0;
+// 		int count = 0; => count써도 가능
 		
 		for(int i=0; i<arr.length; i++) {
 			for(int j=0; j<arr[i].length; j++) {
