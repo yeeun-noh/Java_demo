@@ -10,7 +10,7 @@ public class Exercise5_12 {
 
 		String[][] words = {
 				{"chair","의자"},		 //words[0][0], words[0][1]
-				{"computer","컴퓨터"}, //words[1][0], words[1][1]
+				{"computer","컴퓨터"}, 	//words[1][0], words[1][1]
 				{"integer","정수"}	 //words[2][0], words[2][1]
 		};
 		
