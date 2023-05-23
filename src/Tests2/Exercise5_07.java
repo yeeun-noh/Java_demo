@@ -15,8 +15,8 @@ public class Exercise5_07 {
 
 		System.out.println("money=" + money);
 
-		int[] coinUnit = {500, 100, 50, 10}; //동전의 단위
-		int[] coin = {5, 5, 5, 5}; 			 //단위별 동전의 개수
+		int[] coinUnit = {500, 100, 50, 10}; 	//동전의 단위
+		int[] coin = {5, 5, 5, 5}; 	 	//단위별 동전의 개수
 
 		for (int i = 0; i < coinUnit.length; i++) {
 			int coinNum = 0;
