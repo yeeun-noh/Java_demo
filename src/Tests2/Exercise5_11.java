@@ -21,7 +21,7 @@ public class Exercise5_11 {
 				result[i][j] = score[i][j];
 				result[i][score[i].length] += result[i][j];
 				result[score.length][j] += result[i][j];
-				result[score.length][score[0].length] += result[i][j];
+				result[score.length][score[i].length] += result[i][j];
 			}
 		}
 		
