@@ -12,9 +12,9 @@ public class Exercise5_05 {
 		for(int i=0; i< ballArr.length; i++) {
 			int j = (int)(Math.random()*ballArr.length);
 			int tmp = 0;
-			tmp = ballArr[i];
-			ballArr[i] = ballArr[j];
-			ballArr[j] = tmp;
+			tmp = ballArr[j];
+			ballArr[j] = ballArr[i];
+			ballArr[i] = tmp;
 		}
 		
 		//배열 ballArr의 앞에서 3개의 수를 배열 ball3로 복사한다:
