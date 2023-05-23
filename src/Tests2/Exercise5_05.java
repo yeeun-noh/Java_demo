@@ -10,7 +10,7 @@ public class Exercise5_05 {
 
 		//배열 ballArr의 임의의 요소를 골라서 위치를 바꾼다:
 		for(int i=0; i< ballArr.length; i++) {
-			int j = (int)(Math.random()*ballArr.length);
+			int j = (int)(Math.random()*ballArr.length); //0~8의 랜덤한수
 			int tmp = 0;
 			tmp = ballArr[j];
 			ballArr[j] = ballArr[i];
