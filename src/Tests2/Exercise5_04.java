@@ -14,13 +14,16 @@ public class Exercise5_04 {
 	
 		int total = 0;
 		float average = 0;
+// 		int count = 0;
 		
 		for(int i=0; i<arr.length; i++) {
 			for(int j=0; j<arr[i].length; j++) {
 				total += arr[i][j];
+// 				count++;
 			}
 		}
 		average = (float)total / (arr.length*arr[0].length);
+// 		average = (float)total / (count);
 		
 		System.out.println("total= " + total);
 		System.out.println("average= " + average);
