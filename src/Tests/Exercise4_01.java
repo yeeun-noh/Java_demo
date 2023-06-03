@@ -1,5 +1,5 @@
 package Tests;
-//1~8번까지 풀기:
+//1~8번 풀기:
 
 public class Exercise4_01 {
 
