@@ -1,5 +1,5 @@
 package Tests;
-//두 개의 주사위 눈의 합이 6이 되는 모든 경우의 수:
+//두 개의 주사위 눈의 합이 6이 되는 모든경우의 수:
 
 public class Exercise4_06 {
 
