@@ -1,5 +1,5 @@
 package Tests3;
-//SutdaCard2클래스에 두개의 생성자와 info()를 추가해서 실행결과 얻기:
+//SutdaCard2클래스에 두개의 생성자와 info()를 추가해서 실행결과 얻기 :
 
 public class Exercise6_02 {
 
